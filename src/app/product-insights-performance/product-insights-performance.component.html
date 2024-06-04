@@ -117,7 +117,6 @@
       <div
         class="border border-[#E7EAEE] rounded-lg px-3 flex flex-row gap-2 items-center"
       >
-        <!-- https://feathericons.dev/?search=search&iconset=feather -->
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
@@ -140,46 +139,26 @@
           class="py-3 outline-none"
         />
       </div>
-      <div class="flex lg:justify-between flex-col gap-3 py-2">
-        <div
-          class="bg-[#E7EAEE] flex justify-between items-center py-[0.5rem] px-[1rem] min-w-[101.5px] h-[36px]"
-        >
-          <h1 class="text-[#64748B] lg:text-lg text-md">Monthly</h1>
-
-          <!-- https://feathericons.dev/?search=chevron-down&iconset=feather -->
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            width="24"
-            height="24"
-            class="main-grid-item-icon"
-            fill="none"
-            stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
+      <div class="flex justify-between gap-3 py-[1.5rem]">
+        <div class="bg-[#E7EAEE] flex items-center px-2 min-w-[101.5px]">
+          <select
+            name="select"
+            class="bg-[#E7EAEE] text-[#64748B] px-[1rem] outline-none cursor-pointer"
+            id=""
           >
-            <polyline points="6 9 12 15 18 9" />
-          </svg>
+            <option value="option1">Monthly</option>
+            <option value="option1">Weekly</option>
+            <option value="option1">Yearly</option>
+          </select>
         </div>
         <div
-          class="bg-[#E7EAEE] flex justify-between items-center py-[0.5rem] px-[1rem] min-w-[101.5px] h-[36px]"
+          class="bg-[#E7EAEE] flex justify-between items-center py-[0.5rem] lg:py-[1rem] px-[1rem] min-w-[101.5px] cursor-pointer"
         >
-          <!-- https://feathericons.dev/?search=chevron-down&iconset=feather -->
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            width="24"
-            height="24"
-            class="main-grid-item-icon"
-            fill="none"
-            stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-          >
-            <polyline points="6 9 12 15 18 9" />
-          </svg>
+          <img
+            src="/assets/public/filter-icons.png"
+            alt=""
+            class="h-[20px] w-[20px]"
+          />
           <h1 class="text-[#64748B] lg:text-lg text-md">Filter</h1>
         </div>
       </div>

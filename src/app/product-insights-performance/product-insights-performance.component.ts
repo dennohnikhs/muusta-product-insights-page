@@ -1,12 +1,10 @@
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'app-product-insights-performance',
+  selector: "app-product-insights-performance",
   standalone: true,
   imports: [],
-  templateUrl: './product-insights-performance.component.html',
-  styleUrl: './product-insights-performance.component.scss'
+  templateUrl: "./product-insights-performance.component.html",
+  styleUrl: "./product-insights-performance.component.scss",
 })
-export class ProductInsightsPerformanceComponent {
-
-}
+export class ProductInsightsPerformanceComponent {}

@@ -1,5 +1,5 @@
 <div class="grid grid-cols-1 lg:grid-cols-2">
-  <div class="border border-gray-200 p-[1rem] rounded-sm">
+  <div class="border border-gray-200 p-[1rem] rounded-sm lg:h-[430px]">
     <div>
       <div class="w-full relative bg-gray-100">
         <button
@@ -157,31 +157,22 @@
     <div
       class="grid grid-cols-1 lg:flex lg:justify-between bg-[#F7F8F9] p-[1rem] my-[1rem]"
     >
-      <div class="flex flex-row gap-3">
+      <div class="flex flex-row gap-3 items-center">
         <img src="/assets/public/Company_small_logo.png" alt="" />
         <p class="text-[#191D23] text-ellipsis text-md">
           How your customer ...
         </p>
       </div>
-      <div class="flex flex-row mt-[1rem]">
-        <h1 class="text-[#64748B] text-sm lg:text-md font-light">
-          in Person Pick-Up
-        </h1>
-        <!-- https://feathericons.dev/?search=chevron-down&iconset=feather -->
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-          width="24"
-          height="24"
-          class="main-grid-item-icon"
-          fill="none"
-          stroke="#64748B"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
+      <div class="flex justify-center">
+        <select
+          name="select"
+          class="text-[#64748B] outline-none cursor-pointer bg-[#F7F8F9] px-[1rem]"
+          id=""
         >
-          <polyline points="6 9 12 15 18 9" />
-        </svg>
+          <option value="option1" class="">In Person Pick-Up1</option>
+          <option value="option1">In Person Pick-Up2</option>
+          <option value="option1">In Person Pick-Up3</option>
+        </select>
       </div>
     </div>
     <div class="grid grid-cols-2 lg:grid-cols-2">
